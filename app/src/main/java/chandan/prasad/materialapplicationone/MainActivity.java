@@ -40,10 +40,9 @@ public class MainActivity extends AppCompatActivity {
         setSupportActionBar(toolbar);
 
 
-        chunkfive = Typeface.createFromAsset(getAssets(), "fonts/Chunkfive.otf");
-        fontlerybrown = Typeface.createFromAsset(getAssets(), "fonts/FontleroyBrownNF.otf");
-        wonderbarDemo = Typeface.createFromAsset(getAssets(), "fonts/WonderbarDemo.otf");
-
+       chunkfive = Typeface.createFromAsset(getAssets(), "fonts/Chunkfive.otf");
+        fontlerybrown = Typeface.createFromAsset(getAssets(), "fonts/bunchblossm.ttf");
+       wonderbarDemo = Typeface.createFromAsset(getAssets(), "fonts/WonderbarDemo.otf");
 
         PreferenceManager.setDefaultValues(MainActivity.this, R.xml.quiz_preferences, false);
 
